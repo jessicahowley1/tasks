@@ -116,6 +116,7 @@ FAIL src/arrays.test.ts
 
       at Object.<anonymous> (src/arrays.test.ts:32:27)
 
+PASS src/objects.test.ts
 PASS src/functions.test.ts
   ● Console
 
@@ -151,17 +152,21 @@ PASS src/functions.test.ts
 
 PASS src/text.test.tsx
 PASS src/App.test.tsx
---------------|---------|----------|---------|---------|-------------------
-File          | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s 
---------------|---------|----------|---------|---------|-------------------
-All files     |   97.56 |    97.14 |   96.66 |   97.29 |                   
- App.tsx      |      50 |      100 |      50 |      50 | 24                
- arrays.ts    |   98.27 |    95.23 |     100 |      98 | 95                
- functions.ts |     100 |      100 |     100 |     100 |                   
---------------|---------|----------|---------|---------|-------------------
+----------------|---------|----------|---------|---------|-------------------
+File            | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s 
+----------------|---------|----------|---------|---------|-------------------
+All files       |   97.39 |    93.61 |   97.61 |   97.16 |                   
+ src            |   97.39 |    93.61 |   97.61 |   97.16 |                   
+  App.tsx       |      50 |      100 |      50 |      50 | 24                
+  arrays.ts     |   98.27 |    95.23 |     100 |      98 | 95                
+  functions.ts  |     100 |      100 |     100 |     100 |                   
+  objects.ts    |   96.96 |    83.33 |     100 |   96.87 | 71                
+ src/interfaces |       0 |        0 |       0 |       0 |                   
+  question.ts   |       0 |        0 |       0 |       0 |                   
+----------------|---------|----------|---------|---------|-------------------
 
-Test Suites: 1 failed, 3 passed, 4 total
-Tests:       1 failed, 15 passed, 16 total
+Test Suites: 1 failed, 4 passed, 5 total
+Tests:       1 failed, 25 passed, 26 total
 Snapshots:   0 total
-Time:        3.741 s
+Time:        3.309 s
 Ran all test suites.
