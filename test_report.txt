@@ -5,7 +5,7 @@
 Browserslist: caniuse-lite is outdated. Please run:
   npx browserslist@latest --update-db
   Why you should do it regularly: https://github.com/browserslist/browserslist#browsers-data-updating
-FAIL src/arrays.test.ts
+PASS src/arrays.test.ts
   ● Console
 
     console.log
@@ -63,59 +63,6 @@ FAIL src/arrays.test.ts
 
       at makeMath (src/arrays.ts:113:13)
 
-    console.log
-      [
-        100, 199, 1, -5,
-        300,   7, 3
-      ]
-
-      at injectPositive (src/arrays.ts:156:17)
-
-    console.log
-      [
-        100, 199, 1, -5,
-        300,   7, 3
-      ]
-
-      at injectPositive (src/arrays.ts:157:17)
-
-    console.log
-      [ -100, 0, -200, 100, 200 ]
-
-      at injectPositive (src/arrays.ts:156:17)
-
-    console.log
-      [ -100, 0, -200, 100, 200 ]
-
-      at injectPositive (src/arrays.ts:157:17)
-
-  ● Testing the array functions › Testing the injectPositive function
-
-    expect(received).toEqual(expected) // deep equality
-
-    - Expected  - 0
-    + Received  + 1
-
-      Array [
-        100,
-        199,
-        1,
-        -5,
-    +   300,
-        7,
-        3,
-      ]
-
-      30 |         expect(NUMBERS_3).toEqual([5]);
-      31 |         expect(NUMBERS_4).toEqual([]);
-    > 32 |         expect(NUMBERS_5).toEqual([100, 199, 1, -5, 7, 3]);
-         |                           ^
-      33 |         expect(NUMBERS_6).toEqual([-100, -200, 100, 200]);
-      34 |         expect(NUMBERS_7).toEqual([199, 1, 550, 50, 200]);
-      35 |     });
-
-      at Object.<anonymous> (src/arrays.test.ts:32:27)
-
 PASS src/objects.test.ts
 PASS src/functions.test.ts
   ● Console
@@ -155,18 +102,18 @@ PASS src/App.test.tsx
 ----------------|---------|----------|---------|---------|-------------------
 File            | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s 
 ----------------|---------|----------|---------|---------|-------------------
-All files       |   97.39 |    93.61 |   97.61 |   97.16 |                   
- src            |   97.39 |    93.61 |   97.61 |   97.16 |                   
+All files       |   97.36 |    93.61 |   97.61 |   97.14 |                   
+ src            |   97.36 |    93.61 |   97.61 |   97.14 |                   
   App.tsx       |      50 |      100 |      50 |      50 | 24                
-  arrays.ts     |   98.27 |    95.23 |     100 |      98 | 95                
+  arrays.ts     |   98.24 |    95.23 |     100 |   97.95 | 95                
   functions.ts  |     100 |      100 |     100 |     100 |                   
   objects.ts    |   96.96 |    83.33 |     100 |   96.87 | 71                
  src/interfaces |       0 |        0 |       0 |       0 |                   
   question.ts   |       0 |        0 |       0 |       0 |                   
 ----------------|---------|----------|---------|---------|-------------------
 
-Test Suites: 1 failed, 4 passed, 5 total
-Tests:       1 failed, 25 passed, 26 total
+Test Suites: 5 passed, 5 total
+Tests:       26 passed, 26 total
 Snapshots:   0 total
-Time:        3.309 s
+Time:        3.359 s
 Ran all test suites.
