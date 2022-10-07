@@ -5,115 +5,29 @@
 Browserslist: caniuse-lite is outdated. Please run:
   npx browserslist@latest --update-db
   Why you should do it regularly: https://github.com/browserslist/browserslist#browsers-data-updating
+PASS src/nested.test.ts
 PASS src/arrays.test.ts
-  ● Console
-
-    console.log
-      [ 3, 6, 9 ]
-
-      at tripleNumbers (src/arrays.ts:25:13)
-
-    console.log
-      [ 300, 900, 600 ]
-
-      at tripleNumbers (src/arrays.ts:25:13)
-
-    console.log
-      [ 15 ]
-
-      at tripleNumbers (src/arrays.ts:25:13)
-
-    console.log
-      []
-
-      at tripleNumbers (src/arrays.ts:25:13)
-
-    console.log
-      [ 300, 597, 3, -15, 21, 9 ]
-
-      at tripleNumbers (src/arrays.ts:25:13)
-
-    console.log
-      [ -300, -600, 300, 600 ]
-
-      at tripleNumbers (src/arrays.ts:25:13)
-
-    console.log
-      1+2+3
-
-      at makeMath (src/arrays.ts:113:13)
-
-    console.log
-      100+300+200
-
-      at makeMath (src/arrays.ts:113:13)
-
-    console.log
-      5
-
-      at makeMath (src/arrays.ts:113:13)
-
-    console.log
-
-
-      at makeMath (src/arrays.ts:113:13)
-
-    console.log
-      199+1+550+50+200
-
-      at makeMath (src/arrays.ts:113:13)
-
 PASS src/objects.test.ts
 PASS src/functions.test.ts
-  ● Console
-
-    console.log
-      HELLO
-
-      at shout (src/functions.ts:34:13)
-
-    console.log
-      WHAT?
-
-      at shout (src/functions.ts:34:13)
-
-    console.log
-      OHO
-
-      at shout (src/functions.ts:34:13)
-
-    console.log
-      AHHHH!!!
-
-      at shout (src/functions.ts:34:13)
-
-    console.log
-
-
-      at shout (src/functions.ts:34:13)
-
-    console.log
-      PLEASE GO OUTSIDE
-
-      at shout (src/functions.ts:34:13)
-
 PASS src/text.test.tsx
 PASS src/App.test.tsx
 ----------------|---------|----------|---------|---------|-------------------
 File            | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s 
 ----------------|---------|----------|---------|---------|-------------------
-All files       |   97.36 |    93.61 |   97.61 |   97.14 |                   
- src            |   97.36 |    93.61 |   97.61 |   97.14 |                   
+All files       |   98.36 |    94.44 |    98.7 |   98.26 |                   
+ src            |   98.36 |    94.44 |    98.7 |   98.26 |                   
   App.tsx       |      50 |      100 |      50 |      50 | 24                
-  arrays.ts     |   98.24 |    95.23 |     100 |   97.95 | 95                
+  arrays.ts     |   98.18 |    95.23 |     100 |   97.87 | 95                
   functions.ts  |     100 |      100 |     100 |     100 |                   
+  nested.ts     |     100 |       96 |     100 |     100 | 223               
   objects.ts    |   96.96 |    83.33 |     100 |   96.87 | 71                
  src/interfaces |       0 |        0 |       0 |       0 |                   
+  answer.ts     |       0 |        0 |       0 |       0 |                   
   question.ts   |       0 |        0 |       0 |       0 |                   
 ----------------|---------|----------|---------|---------|-------------------
 
-Test Suites: 5 passed, 5 total
-Tests:       26 passed, 26 total
+Test Suites: 6 passed, 6 total
+Tests:       42 passed, 42 total
 Snapshots:   0 total
-Time:        3.359 s
+Time:        4.612 s
 Ran all test suites.
