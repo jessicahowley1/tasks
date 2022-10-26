@@ -1,8 +1,8 @@
 import React, { useState } from "react";
 import { Form } from "react-bootstrap";
 
-//export function ChangeColor(): JSX.Element {
-/* const [chosenColor, setChosenColor] = useState<string>("blue");
+export function ChangeColor(): JSX.Element {
+    const [chosenColor, setChosenColor] = useState<string>("blue");
 
     function updateColor(event: React.ChangeEvent<HTMLInputElement>) {
         setChosenColor(event.target.value);
@@ -136,5 +136,5 @@ import { Form } from "react-bootstrap";
                 }}
             />
         </div>
-    ); */
-//}
+    );
+}
