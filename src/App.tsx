@@ -92,6 +92,7 @@ function App(): JSX.Element {
                     <GiveAttempts></GiveAttempts>
                     <hr></hr>
                     {/* //<ChangeColor></ChangeColor>
+                    //test
                     <hr></hr> */}
                     <EditMode></EditMode>
                     <hr></hr>
