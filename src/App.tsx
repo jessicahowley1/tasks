@@ -95,12 +95,14 @@ function App(): JSX.Element {
                     <hr></hr>
                     <EditMode></EditMode>
                     <hr></hr>
-                    {/* <MultipleChoiceQuestion></MultipleChoiceQuestion> */}
+                    <MultipleChoiceQuestion
+                        options={[]}
+                        expectedAnswer={""}
+                    ></MultipleChoiceQuestion>
                     <hr></hr>
                 </div>
             </div>
         </div>
     );
 }
-
 export default App;
